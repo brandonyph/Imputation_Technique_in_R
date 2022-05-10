@@ -1,0 +1,27 @@
+{
+    "id": "6FC32D94",
+    "path": "~/Github/Imputation_Technique/Scripts/Script.Rmd",
+    "project_path": "Scripts/Script.Rmd",
+    "type": "r_markdown",
+    "hash": "3913518006",
+    "contents": "",
+    "dirty": false,
+    "created": 1652097748451.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "296,21",
+        "scrollLine": "279",
+        "last_setup_crc32": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1652152144,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1652152144878,
+    "read_only": false,
+    "read_only_alternatives": []
+}
