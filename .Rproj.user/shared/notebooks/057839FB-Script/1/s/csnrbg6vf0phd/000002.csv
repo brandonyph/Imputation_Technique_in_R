@@ -1,0 +1,8 @@
+"0","##this function divides the correct predictions by total number of predictions that tell us how accurate teh model is."
+"0"," "
+"0","accuracy <- function(x){sum(diag(x)/(sum(rowSums(x)))) * 100}"
+"0","accuracy(tab)"
+"1","[1]"
+"1"," 93.33333"
+"1","
+"

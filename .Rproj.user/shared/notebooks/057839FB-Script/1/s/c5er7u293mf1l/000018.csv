@@ -1,0 +1,27 @@
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"0","original <- rawdata[, 1]"
+"0","imputed1 <- imputed_data_1[, 1]"
+"0","imputed2 <- imputed_data_2[, 1]"
+"0",""
+"0","pdata <- c()"
+"0","pdata$ori <- original"
+"0","pdata$imp1 <- imputed1"
+"0","pdata$imp2 <- imputed2"
+"0","pdata$index <- seq(1, length(original))"
+"0","pdata  <- as.data.frame(pdata)"
+"0",""
+"0","pdata <- pdata[ran2, ]"
+"0",""
+"0","library(ggplot2)"
+"0",""
+"0","ggplot(pdata, aes(x = index))  +"
+"0","  geom_line(aes(y = ori), col = ""blue"") +"
+"0","  geom_line(aes(y = imp1), col = ""red"") +"
+"0","  geom_line(aes(y = imp2),  col = ""green"") +"
+"0","  theme_bw() +"
+"0","  scale_y_log10()"

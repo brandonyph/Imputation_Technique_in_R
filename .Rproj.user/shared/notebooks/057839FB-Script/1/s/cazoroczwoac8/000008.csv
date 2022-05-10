@@ -1,0 +1,8 @@
+"0","library(mice)"
+"0","tempData <- mice(missing_data, m=3, maxit=50, meth='lasso.select.norm', seed=500, printFlag = FALSE)"
+"2","Warning:"
+"2"," Number of logged events: 150
+"
+"0","#Lasso select + linear regression"
+"0",""
+"0","imputed_data_2 <- complete(tempData,1)"

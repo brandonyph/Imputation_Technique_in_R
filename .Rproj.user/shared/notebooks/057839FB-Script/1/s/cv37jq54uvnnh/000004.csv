@@ -1,0 +1,7 @@
+"0","tempData <- mice(missing_data,m=3, maxit=50, meth='rf', seed=500, printFlag = FALSE)"
+"2","Warning:"
+"2"," Number of logged events: 150
+"
+"0","#RandomForest"
+"0",""
+"0","imputed_data_1 <- complete(tempData,1)"

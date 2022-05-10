@@ -1,0 +1,7 @@
+"0","data <- airquality"
+"0","data[1:7,3] <- NA"
+"0","data[1:5,4] <- NA"
+"0",""
+"0","tempData <- mice(data,m=3, maxit=50, meth='rf', seed=500, printFlag = FALSE)"
+"0",""
+"0","imputedData <- complete(tempData,1)"

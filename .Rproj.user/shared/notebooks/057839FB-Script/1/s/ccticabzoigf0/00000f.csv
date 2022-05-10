@@ -1,0 +1,4 @@
+"0",""
+"0","percetange_dff <- tab$diff / tab$original * 100"
+"0","barplot(percetange_dff)"
+"0",""

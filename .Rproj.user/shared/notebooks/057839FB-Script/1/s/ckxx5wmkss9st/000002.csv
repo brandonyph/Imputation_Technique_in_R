@@ -1,0 +1,2 @@
+"0","diff_rf <- cbind(airquality[1:7,3],imputedData[1:7,3])"
+"0","diff2_rf <- cbind(airquality[1:5,4], imputedData[1:5,4])"
